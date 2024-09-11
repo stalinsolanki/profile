@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stalin Solanki</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <h1>STALIN SOLANKI</h1>
+        </div>
+        <ul class="navbar-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="navbar-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+            <p>I'm a passionate developer creating modern and interactive websites.</p>
+            <a href="#projects"><button>View My Work</button></a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container about-container">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <h3>Hello, I am Stalin Solanki</h3>
+                <p>I'm a passionate developer with a knack for creating innovative and user-friendly solutions. I
+                    specialize in building responsive web applications that blend functionality with modern design.
+                    I’m constantly learning and adapting to new challenges, aiming to deliver high-quality work
+                    that exceeds expectations.</p>
+                <a href="resume.pdf" target="_blank"><button>Download Resume</button></a>
+            </div>
+            <div class="image-section">
+                <img src="photo.jpg" alt="John Doe Image" id="product-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="compressor.PNG" alt="Project 1">
+                    <div class="project-info">
+                        <a href="compressor.html" target="_blank" style="text-decoration:none;">
+                            <h3>Image Compressor</h3>
+                        </a>
+                        <p>A modern Image Compressor to reduse the size of your image.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="converter.PNG" alt="Project 2">
+                    <div class="project-info">
+                        <a href="convertor.html" target="_blank" style="text-decoration:none;">
+                            <h3>Currency Convertor</h3>
+                        </a>
+                        <p>Check the price of your currency with other nation's currency.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="qr.PNG" alt="Project 3">
+                    <div class="project-info">
+                        <a href="qr.html" target="_blank" style="text-decoration:none;">
+                            <h3>OR Code Generator</h3>
+                        </a>
+                        <p>QR code Generator to generate qr code from text or URL.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="agecalc.PNG" alt="Project 4">
+                    <div class="project-info">
+                        <a href="agecalc.html" target="_blank" style="text-decoration:none;">
+                            <h3>Age Calculator</h3>
+                        </a>
+                        <p>Enter your age and current date to check the exect number of your age. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <h2>My Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Web Development</h3>
+                    <p>I build responsive and functional websites using modern technologies.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Web Design</h3>
+                    <p>I design visually appealing and user-friendly interfaces.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Mobile App Development</h3>
+                    <p>I create seamless mobile applications for iOS and Android platforms.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <div class="contact-form">
+                <form action="https://api.web3forms.com/submit" method="post">
+
+                    <input type="hidden" name="access_key" value="829be599-2b1d-4e5e-b80c-fbd29aa10cb8">
+
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <table>
+                        <tr>
+                            <td>
+                                <button type="submit" class="btn1">Send Message</button>
+                            </td>
+                            <td>
+                                <button type="reset" class="btn">Reset</button>
+                            </td>
+                        </tr>
+                    </table>
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <!-- Embed Google Map -->
+                <iframe
+                    src="https://maps.google.com/maps?q=Your%20Location&amp;t=&amp;z=13&amp;;ie=UTF8&amp;iwloc=&amp;output=embed"
+                    width="350" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="footer-right">
+                <p class="follow-text">Follow Me:</p>
+                <div class="social-icons">
+                    <a href="https://www.github.com/stalinsolanki" target="_blank">
+                        <i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/stalin-solanki-8214a228a/?originalSubdomain=in"
+                        target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/_stalin31" target="_blank">
+                        <i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/stalinsolanki" target="_blank">
+                        <i class="fab fa-facebook-f"></i></a>
+                </div>
+                <p class="description">Connect with me on social media for more updates and interesting content.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 stalin solanki. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script>
+
+        const toggleButton = document.getElementById('mobile-menu');
+        const navbarLinks = document.querySelector('.navbar-links');
+
+        toggleButton.addEventListener('click', () => {
+            navbarLinks.classList.toggle('active');
+        });
+        navbarLinks.addEventListener('click', () => {
+            navbarLinks.classList.toggle('active');
+        })
+
+    </script>
+</body>
+
+</html>
